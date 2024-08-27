@@ -22,7 +22,7 @@ const stopAutomatic = () => {
 }
 
 const turnOn = {
-    'red':      () => img.src = 'vermelho.png',
+    'red':      () => img.src = '',
     'yellow':   () => img.src = 'amarelo.png',
     'green':    () => img.src = 'verde.png',
     'automatic': () => {
